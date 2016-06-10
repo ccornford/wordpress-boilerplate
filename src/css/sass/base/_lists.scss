@@ -1,0 +1,33 @@
+ul,
+ol {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+
+  li {
+    list-style: none;
+    margin: .5em 0;
+  }
+
+  &%default-ol {
+    list-style-type: decimal;
+    margin-bottom: $small-spacing;
+    padding-left: $base-spacing;
+  }
+}
+
+dl {
+  font-weight: normal;
+  margin: .7em 0;
+  dd, dt {
+    display: inline-block;
+    margin: 0;
+  }
+  dd {
+    max-width: 250px;
+  }
+  dt {
+    width: 150px;
+    vertical-align: top;
+  }
+}

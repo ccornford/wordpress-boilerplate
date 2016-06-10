@@ -1,0 +1,30 @@
+/**
+ * modules/mixins
+ * ---
+ */
+
+@mixin reset-box {
+    padding: 0;
+    margin: 0;
+}
+
+@mixin body-width {
+    max-width: $body-width;
+    margin: 0 auto;
+}
+
+@mixin omega-reset($nth, $context: null) {
+    @if $context == null {
+        &:nth-child(#{$nth}) { margin-right: flex-gutter(); }
+    } @else {
+        &:nth-child(#{$nth}) { margin-right: flex-gutter($context); }
+    }
+    &:nth-child(#{$nth}+1) { clear: none; }
+}
+
+@mixin text-replacement {
+    position: absolute;
+    left: 0;
+    top: 0;
+    text-indent: 0;
+}

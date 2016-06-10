@@ -1,0 +1,58 @@
+/**
+ * partials/reset
+ * ---
+ * Reset file
+ * NOTE: also `normalize.css` is used
+ */
+
+// Global box-sizing
+*,
+*:after,
+*:before {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+img {
+    // Don't allow <IMG> to be larger then its container
+    max-width: 100%;
+    // Omit space caused by default style, between images lines
+    vertical-align: middle;
+}
+
+a {
+    color: $text-color;
+    text-decoration: none;
+
+    &:focus,
+    &:hover {
+        text-decoration: none;
+        color: $text-color;
+    }
+
+    &:active {
+    }
+}
+
+input[type="text"],
+input[type="search"] {
+    font-size: inherit;
+    line-height: inherit;
+}
+
+input {
+    &:focus, &:active {
+        outline: none;
+        box-shadow: none;
+    }
+}
+
+// Text selection
+::selection {
+    background-color: $selection-bg;
+    color: $body-bg;
+    text-shadow: none;
+}

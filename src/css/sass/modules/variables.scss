@@ -1,0 +1,84 @@
+/**
+ * modules/variables
+ * ---
+ */
+
+
+// Typography
+$font-size-base: 140%;
+$line-height-base: 1.5;
+
+$base-font-family: "Marion-Regular", Helvetica, Arial, "Open Sans", sans-serif;
+$heading-font-family: $base-font-family;
+
+$heading-font-spacing: .2em;
+
+// Colors
+$blue: #477dca;
+$dark-gray: #333;
+$medium-gray: #999;
+$light-grey: #f6f7f6;
+$pinterest-red: #bd081c;
+$gold: #b88f2e;
+$grey: #666768;
+
+// Font Colors
+$base-background-color: #fff;
+$base-font-color: #000;
+$action-color: $blue;
+
+$body-bg: #ffffff;
+$selection-bg: #b88f2e;
+
+$text-color: #000;
+$h2-color: #955e45;
+
+$shop-now-button-color: #000;
+
+
+// Font Sizes
+$base-font-size: 1em;
+
+// Line height
+$base-line-height: 1.5;
+$heading-line-height: 1.2;
+
+// Other Sizes
+$base-border-radius: 3px;
+$base-spacing: $base-line-height * 1em;
+$small-spacing: $base-spacing / 2;
+$base-z-index: 0;
+
+
+// Border
+$base-border-color: $light-grey;
+$base-border: 1px solid $base-border-color;
+$border: 1px solid #000;
+$border-grey: 1px solid rgba(#000, 0.2);
+
+// Forms
+$form-box-shadow: inset 0 1px 3px rgba(#000, 0.06);
+$form-box-shadow-focus: $form-box-shadow, 0 0 5px adjust-color($action-color, $lightness: -5%, $alpha: -0.3);
+
+// Grid
+$wrapper-width: 1280px;
+$body-width: 1560px;
+
+$padding-horizontal-base: 5px;
+$padding-vertical-base: 5px;
+$margin-horizontal-base: 5px;
+$margin-vertical-base: 5px;
+$margin-horizontal-large: 15px;
+$margin-vertical-large: 15px;
+
+$mobile-max: 479px;
+$phablet-max: 767px;
+$tablet-max: 1023px;
+$desktop-sml-max: 1199px;
+$desktop-mid-max: 1799px;
+
+$mobile-min: $mobile-max + 1;
+$phablet-min: $phablet-max + 1;
+$tablet-min: $tablet-max + 1;
+$desktop-sml-min: $desktop-sml-max + 1;
+$desktop-mid-min: $desktop-mid-max + 1;

@@ -1,0 +1,11 @@
+/**
+ * partials/wrapper
+ * ---
+ */
+
+
+main {
+  @include media($tablet-max) {
+    @include outer-container();
+  }
+}

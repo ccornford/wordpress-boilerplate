@@ -1,0 +1,80 @@
+/**
+ * modules/icons
+ * ---
+ * Declare icons here
+ */
+
+.pinterest:before {
+    content: "\f231";
+    font-family: "FontAwesome";
+}
+.twitter:before {
+    content: "\f099";
+    font-family: "FontAwesome";
+}
+.facebook:before {
+    content: "\f087";
+    font-family: "FontAwesome";
+}
+.instagram:before {
+    content: "\f16d";
+    font-family: "FontAwesome";
+}
+.icon-search:before {
+    content: "\f002";
+    font-family: "FontAwesome";
+}
+.icon-basket:before {
+    content: "\f07a";
+    font-family: "FontAwesome";
+}
+.icon-close:before {
+    content: "";
+    display: block;
+    background-image: url("../img/svg/cross.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 1em;
+    width: 1em;
+}
+.icon-menu:before {
+    content: "\f0c8";
+    font-family: "FontAwesome";
+}
+.icon-chevron-down:before {
+    content: "\f078";
+    font-family: "FontAwesome";
+}
+.icon-chevron-up:before {
+    content: "\f077";
+    font-family: "FontAwesome";
+}
+.icon-chevron-right:before {
+    content: "\f054";
+    font-family: "FontAwesome";
+}
+.icon-chevron-left:before {
+    content: "\f053";
+    font-family: "FontAwesome";
+}
+.icon-hamburger:before {
+    content: "\f0c9";
+    font-family: "FontAwesome";
+}
+.icon-lock:before {
+    content: "\f023";
+    font-family: "FontAwesome";
+}
+.icon-phone:before {
+    content: "\f095";
+    font-family: "FontAwesome";
+}
+.icon-next:before {
+    content: "";
+    display: block;
+    background-image: url("../img/svg/next.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 1em;
+    width: 1em;
+}

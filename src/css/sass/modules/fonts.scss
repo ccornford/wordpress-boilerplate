@@ -1,0 +1,16 @@
+/**
+ * modules/fonts
+ * ---
+ * Declare fonts here
+ */
+
+@font-face {
+    font-family: "Gotham-BookItalic";
+    src: url("../fonts/Gotham-BookItalic/Gotham-BookItalic.eot");
+    src: url("../fonts/Gotham-BookItalic/Gotham-BookItalic.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Gotham-BookItalic/Gotham-BookItalic.woff") format("woff"),
+    url("../fonts/Gotham-BookItalic/Gotham-BookItalic.ttf") format("truetype"),
+    url("../fonts/Gotham-BookItalic/Gotham-BookItalic.svg#font-name") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
