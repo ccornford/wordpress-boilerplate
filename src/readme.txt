@@ -1,4 +1,6 @@
-=== Twenty Sixteen ===
+=== WordPress Theme by Chris Cornford ===
+Base theme based on the WordPress Twenty Sixteen theme.
+
 Contributors: the WordPress team
 Requires at least: WordPress 4.4
 Tested up to: WordPress 4.4
